@@ -110,7 +110,7 @@ li {
     transform: translateX(-100%);
     visibility: hidden;
     z-index: 900;
-    background-color: #ec5342;
+    background-color: #d3d3d3;
     transition: transform 0.8s ease-in-out;
 }
 
