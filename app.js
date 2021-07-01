@@ -58,7 +58,7 @@ if (speakerList) {
         speakerName: 'Harish Naik',
         role: 'Head of Innovation Labs, Ally',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,',
-        photoUrl: 'images/Harish_Naik_Ally_New.png',
+        photoUrl: 'images/Harish_Naik_Ally_NEW.png',
       },
       {
         speakerName: 'Jan oliver',
