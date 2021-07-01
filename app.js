@@ -39,4 +39,48 @@ const createSpeaker = (speaker) => {
     li.appendChild(div);
     return li;
 };
-  
+
+if (speakerList) {
+    const speakers = [
+      {
+        speakerName: 'Andra Maria Maute',
+        role: 'Head IT Strategy, AXA',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,',
+        photoUrl: 'images/Andra-Maria_Maute_AXA.png',
+      },
+      {
+        speakerName: 'Chris Brown',
+        role: 'Global Business Development, Bitstamp',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,',
+        photoUrl: 'images/Chris_Aruliah_Bitstamp_NEW.png',
+      },
+      {
+        speakerName: 'Harish Naik',
+        role: 'Head of Innovation Labs, Ally',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,',
+        photoUrl: 'images/Harish_Naik_Ally_New.png',
+      },
+      {
+        speakerName: 'Jan oliver',
+        role: 'Head of Operations, Germany, Coinbase',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,',
+        photoUrl: 'images/Jan-Oliver_Sell_Coinbase_NEW.png',
+      },
+      {
+        speakerName: 'Patrick Donnell',
+        role: 'Vice President, Mastercard',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,',
+        photoUrl: 'images/Patrick_ODonnell_Mastercard_NEW.png',
+      },
+      {
+        speakerName: 'Radoslav Albrecht',
+        role: 'Founder & CEO, Bitbond',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,',
+        photoUrl: 'images/Radoslav_Albrecht_Bitbond.png',
+      },
+    ];
+    for (let i = 0; i < speakers.length; i += 1) {
+      const speakerItem = createSpeaker(speakers[i]);
+      speakerList.appendChild(speakerItem);
+    }
+}
