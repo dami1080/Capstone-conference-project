@@ -184,7 +184,7 @@ li {
   margin-bottom: 1rem;
   /* stylelint-disable-next-line */
   background: linear-gradient(rgb(241, 42, 42), rgb(104, 4, 4));
-  color: transparent; 
+  color: transparent;
   -webkit-background-clip: text;
   font-family: 'cocogoose', sans-serif;
 }
