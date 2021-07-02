@@ -3,8 +3,8 @@
   src: url("fonts/COCOGOOSE/Cocogoose_trial.ttf");
 }
 
-*, 
-*::before, 
+*,
+*::before,
 *::after {
   padding: 0;
   margin: 0;
@@ -135,6 +135,7 @@ li {
 }
 
 .nav-link:hover {
+  /* stylelint-disable-next-line */
   color: underline #ec5342;
 }
 
@@ -181,6 +182,7 @@ li {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  /* stylelint-disable-next-line */
   background: linear-gradient(rgb(241, 42, 42), rgb(104, 4, 4));
   color: transparent; 
   -webkit-background-clip: text;
