@@ -20,7 +20,7 @@ Desktop Version Screenshot
 Visit this [link](https://dami1080.github.io/Capstone-conference-project/) for the demo
 
 # Loom Video
-Watch this [video](https://www.loom.com/share/32f465a47f4548b39682738575167e1e)
+Watch this [video](https://www.loom.com/share/34f8cd0321e24cf9aba3da3e589b7654)
 
 # Getting started
 
