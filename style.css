@@ -3,7 +3,9 @@
   src: url("fonts/COCOGOOSE/Cocogoose_trial.ttf");
 }
 
-*, *::before, *::after {
+*, 
+*::before, 
+*::after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -15,15 +17,15 @@ body {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .bg-dark {
-    background: #272a31;
+  background: #272a31;
 }
 
 .bg-white {
@@ -88,7 +90,6 @@ li {
   cursor: pointer;
   margin-bottom: 2rem;
   display: flex;
-    
 }
 
 .icon i {
@@ -105,7 +106,7 @@ li {
   display: none;
   visibility: hidden;
 }
-  
+
 .nav-list {
   position: fixed;
   top: 0;
@@ -133,7 +134,7 @@ li {
   color: #ec5342;
 }
 
-.nav-link {
+.nav-link:hover {
   color: underline #ec5342;
 }
 
@@ -141,12 +142,12 @@ li {
   display: none;
   visibility: hidden;
 }
-  
+
 .active .icon .close {
   display: block;
   visibility: visible;
 }
-  
+
 .active .nav-list {
   transform: translateX(0);
   visibility: visible;
@@ -180,10 +181,10 @@ li {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  background-image: linear-gradient(rgb(241, 42, 42), rgb(104, 4, 4));
+  background: linear-gradient(rgb(241, 42, 42), rgb(104, 4, 4));
   color: transparent; 
   -webkit-background-clip: text;
-  font-family: 'cocogoose', sans-serif; 
+  font-family: 'cocogoose', sans-serif;
 }
 
 .hero-content__desc,
@@ -300,7 +301,7 @@ li {
   width: 100%;
   height: 100%;
   position: relative;
-  object-fit: contain; 
+  object-fit: contain;
 }
 
 .speakers-list-item {
@@ -323,7 +324,7 @@ li {
   top: -5px;
   left: -10px;
 }
-  
+
 .speakers-list-item__heading {
   font-weight: bold;
   color: #272a31;
@@ -510,32 +511,32 @@ li {
   .program-list-item-container {
     grid-column-gap: 0.75rem;
   }
-  
+
   .program-list-item-container__icon i {
     font-size: 3rem;
   }
-  
+
   .program-list-item-container__title {
     font-size: 1.2rem;
   }
-  
+
   .program-list-item-container__text {
     font-size: 0.85rem;
     line-height: 1.8;
   }
 }
-  
+
 @media screen and (min-width: 768px) {
   .header .logo {
     display: block;
     visibility: visible;
   }
-  
+
   .icon {
     display: none;
     visibility: hidden;
   }
-  
+
   .nav {
     display: flex;
     align-items: center;
@@ -566,7 +567,7 @@ li {
     font-size: 0.8rem;
     font-weight: 700;
   }
-     
+
   .nav-list {
     position: relative;
     visibility: visible;
@@ -580,29 +581,29 @@ li {
     padding: 0;
     transition: none;
   }
-  
+
   .nav-item {
     margin: 0 1rem 0 0;
   }
-  
+
   .nav-link {
     font-size: 1rem;
     color: #272a31;
     font-weight: 700;
   }
-  
+
   .nav-link:active {
     color: #ec5342;
   }
-  
+
   .nav-link:hover {
     text-decoration: underline #ec5342;
   }
-  
+
   .hero-container {
     padding-top: 10rem;
   }
-  
+
   .hero-content,
   .hero-about-content,
   .program,
@@ -610,55 +611,55 @@ li {
   .partner {
     width: 80%;
   }
-  
+
   .program-list {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  
+
   .program-list-item {
     width: 70%;
   }
-  
+
   .program-list-item-container {
     grid-template-columns: 1fr;
     grid-row-gap: 0.75rem;
   }
-  
+
   .program-list-item-container__title {
     text-align: center;
     font-size: 1.2rem;
   }
-  
+
   .program-list-item-container__text {
     text-align: center;
     font-size: 1.2rem;
   }
-  
+
   .partners-list {
     justify-content: space-between;
   }
-  
+
   .hero-about-content-contact {
     width: 90%;
   }
-  
+
   .summits-list {
     display: flex;
     justify-content: center;
   }
-  
+
   .summits-list-item {
     margin-right: 1.5rem;
   }
-  
+
   .summits-list-item:not(:last-child) {
     margin-bottom: 0;
   }
 }
-  
+
 @media screen and (min-width: 991px) {
   .nav {
     padding-left: 8rem;
@@ -678,37 +679,37 @@ li {
   .hero-about-content {
     width: 80%;
   }
-  
+
   .hero-content__heading,
   .hero-about-content__heading {
     width: 70%;
     letter-spacing: 10px;
   }
-  
+
   .hero-content__desc {
     width: 50%;
     font-size: 1rem;
   }
-  
+
   .hero-about-content__heading {
     margin: 0 auto 2.5rem;
   }
-  
+
   .speakers-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
   }
-  
+
   .speakers-list-item__role {
     font-size: 1rem;
   }
-  
+
   .footer {
     justify-content: space-between;
   }
 }
-  
+
 @media screen and (min-width: 1024px) {
   .program-list-item {
     padding: 0.5rem;
@@ -717,25 +718,25 @@ li {
     border: 1px solid transparent;
     transition: border 0.5s ease-in-out;
   }
-  
+
   .program-list-item:hover {
     border-color: #fff;
   }
-  
+
   .program-list {
     flex-direction: row;
     justify-content: space-between;
   }
-  
+
   .program-list-item-container {
     font-size: 0.9rem;
   }
-  
+
   .program-list-item-container__text {
     text-align: center;
     font-size: 0.8rem;
   }
-  
+
   .speakers-list-item__text {
     font-size: 1rem;
   }
